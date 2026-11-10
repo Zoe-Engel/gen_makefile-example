@@ -1,0 +1,93 @@
+{
+    "test1_dataset": {
+        "condition": ["underweight", "normalweight", "overweight", "class I obesity", "class II obesity"],
+        "control": ["kUmA-N", "kUmNA-N", "kNmA-N", "kNmNA-N"],
+        "path": "./test1/data_set/",
+        "condition_name": "adult",
+        "control_name": "kid"
+    },
+    "test1_normalweight": {
+        "condition": ["underweight", "normalweight"],
+        "control": ["kNmA-N", "kNmNA-N"],
+        "path": "./test1/normalweight/",
+        "condition_name": "adult",
+        "control_name": "kid"
+    },
+    "test1_overweight": {
+        "condition": ["overweight", "class I obesity", "class II obesity"],
+        "control": ["kUmA-N", "kUmNA-N"],
+        "path": "./test1/overweight/",
+        "condition_name": "adult",
+        "control_name": "kid"
+    },
+    "test2_dataset": {
+        "condition": ["overweight", "class I obesity", "class II obesity", "kUmA-N", "kUmNA-N"],
+        "control": ["underweight", "normalweight", "kNmA-N", "kNmNA-N"],
+        "path": "./test2/data_set/",
+        "condition_name": "overweight",
+        "control_name": "normalweight"
+    },
+    "test2_adult": {
+        "condition": ["overweight", "class I obesity", "class II obesity"],
+        "control": ["underweight", "normalweight"],
+        "path": "./test2/adult/",
+        "condition_name": "overweight",
+        "control_name": "normalweight"
+    },
+    "test2_kid": {
+        "condition": ["kUmA-N", "kUmNA-N"],
+        "control": ["kNmA-N", "kNmNA-N"],
+        "path": "./test2/kid/",
+        "condition_name": "overweight",
+        "control_name": "normalweight"
+    },
+    "test3": {
+        "condition": ["kUmA-N"],
+        "control": ["kUmNA-N", "kNmA-N", "kNmNA-N"],
+        "path": "./test3/",
+        "condition_name": "kUmA-N",
+        "control_name": "kXmX-N"
+    },
+    "test4": {
+        "condition": ["kUmA-N", "kUmNA-N"],
+        "control": ["kNmA-N", "kNmNA-N"],
+        "path": "./test4/",
+        "condition_name": "kUmX-N",
+        "control_name": "kNmX-N"
+    },
+    "test5": {
+        "condition": ["kUmA-T"],
+        "control": ["kUmNA-T", "kNmA-T", "kNmNA-T"],
+        "path": "./test5/",
+        "condition_name": "kUmA-T",
+        "control_name": "kXmX-T"
+    },
+    "test6": {
+        "condition": ["kUmA-T", "kUmNA-T"],
+        "control": ["kNmA-T", "kNmNA-T"],
+        "path": "./test6/",
+        "condition_name": "kUmX-T",
+        "control_name": "kNmX-T"
+    },
+    "test7_dataset": {
+        "condition": ["kUmA-N", "kUmNA-N", "kNmA-N", "kNmNA-N"],
+        "control": ["kUmA-T", "kUmNA-T", "kNmA-T", "kNmNA-T"],
+        "path": "./test7/data_set/",
+        "condition_name": "neutrophil",
+        "control_name": "T-cell"
+    },
+    "test7_normalweight": {
+        "condition": ["kNmA-N", "kNmNA-N"],
+        "control": ["kNmA-T", "kNmNA-T"],
+        "path": "./test7/normalweight/",
+        "condition_name": "neutrophil",
+        "control_name": "T-cell"
+    },
+    "test7_overweight": {
+        "condition": ["kUmA-N", "kUmNA-N"],
+        "control": ["kUmA-T", "kUmNA-T"],
+        "path": "./test7/overweight/",
+        "condition_name": "neutrophil",
+        "control_name": "T-cell"
+    }
+}

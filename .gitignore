@@ -1,0 +1,4 @@
+krautwurst_example/Makefile
+krautwurst_example/.gen/
+krautwurst_example/out/
+__pycache__/
